@@ -1,0 +1,10 @@
+eureka:
+   instance:
+    hostname: localhost
+   client:
+     register-with-eureka: false
+     fetch-registry: false
+
+Server:
+  port: 8761
+  # It's a server it's not a client ,that's why it is false
